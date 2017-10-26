@@ -1,0 +1,55 @@
+.fejlec {
+    color: white;
+    font-size: 24px;
+    background-color:DodgerBlue;
+    text-align: center;
+}
+
+.tartalom{
+    color: black;
+    font-size: 20px;
+    text-align: center;
+}
+
+.lablec {
+    color: black;
+    font-size: 12px;
+    text-align: center;
+}
+
+.linkbox{
+    color: white;
+    background-color: rgba(0,0,0,0.7);
+    padding: 15px;
+    font-size: 14px;
+    text-align: center;
+    width: 100px;
+    display: inline-block;
+}
+
+.linkbox:hover {
+    background-color: blueviolet;
+
+}
+
+.fulltop {
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    }
+.fullcenter {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    }
+.fullbottom {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    }
+.pirosvonal {
+    border: 1px solid red;
+}
